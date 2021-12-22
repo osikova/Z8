@@ -1,0 +1,59 @@
+.background{
+	width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+	background-image: url(fon2.jpg);
+}
+
+.blur{
+    filter: blur(2px);
+}
+
+.window{
+    display: none;
+    background-color: rgb(233, 206, 206);
+    text-align: center;
+	position: relative;
+    color:rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+#copyright{
+	color: white;
+    background-color: black;
+}
+
+.btn-block{
+    height: 100%;
+    width: 100%;
+}
+
+.close{
+    float:right;
+    background-color: rgb(231, 202, 202);
+    color:rgb(0, 0, 0);
+    margin: 3px;
+}
+
+.wr{
+    z-index: 0;
+}
+
+.upt{
+    position: relative;
+    text-align: center;
+    background-color: rgb(231, 195, 195);;
+    color: rgb(0, 0, 0);
+}
+
+.modal-opened{
+
+    -moz-filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    -ms-filter: blur(2px);
+
+}
